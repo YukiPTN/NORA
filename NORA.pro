@@ -33,5 +33,5 @@ HEADERS += \
     settingform.h
 
 FORMS += \
-        mainform.ui \
     settingform.ui \
+    mainform.ui
