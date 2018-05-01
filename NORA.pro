@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainform.cpp
+        mainform.cpp \
+    settingform.cpp
 
 HEADERS += \
-        mainform.h
+        mainform.h \
+    settingform.h
 
 FORMS += \
-        mainform.ui
+        mainform.ui \
+    settingform.ui \

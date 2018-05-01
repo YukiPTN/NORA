@@ -12,3 +12,8 @@ settingForm::~settingForm()
 {
     delete ui;
 }
+
+void settingForm::on_settingForm_destroyed()
+{
+
+}

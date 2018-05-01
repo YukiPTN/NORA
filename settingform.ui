@@ -56,12 +56,18 @@
           <property name="text">
            <string>OpenGL</string>
           </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QRadioButton" name="radioButton_2">
           <property name="text">
            <string>DirectX(在做了)</string>
+          </property>
+          <property name="autoRepeat">
+           <bool>false</bool>
           </property>
          </widget>
         </item>
@@ -88,6 +94,9 @@
          <widget class="QRadioButton" name="radioButton_4">
           <property name="text">
            <string>45 (均衡)</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
           </property>
          </widget>
         </item>
