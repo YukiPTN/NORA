@@ -12,3 +12,8 @@ mainForm::~mainForm()
 {
     delete ui;
 }
+
+void mainForm::on_pushButton_clicked()
+{
+    set->show();
+}
